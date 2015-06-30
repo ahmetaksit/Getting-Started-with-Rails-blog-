@@ -5,3 +5,5 @@ Getting Started with Rails (blog)
 	$ rails new blog
 	$ cd blog
 
+4.2 Say "Hello", Rails
+	$ bin/rails generate controller welcome index
