@@ -45,3 +45,5 @@ Getting Started with Rails (blog)
 5.10 Adding Some Validation
 
 5.11 Updating Articles
+
+5.12 Using partials to clean up duplication in views
