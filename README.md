@@ -33,3 +33,7 @@ Getting Started with Rails (blog)
 	$ bin/rake db:migrate
 
 5.6 Saving data in the controller
+
+5.7 Showing Article
+
+5.7 Showing Articles
