@@ -25,3 +25,6 @@ Getting Started with Rails (blog)
 	app/views/articles/new.html.erb
 
 5.3 Creating articles
+
+5.4 Creating the Article model
+	$ bin/rails generate model Article title:string text:text
