@@ -39,3 +39,5 @@ Getting Started with Rails (blog)
 5.7 Showing Articles
 
 5.8 Listing all articles
+
+5.9 Adding links
