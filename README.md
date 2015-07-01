@@ -22,4 +22,6 @@ Getting Started with Rails (blog)
 		end
 
 5.2 The first form
-	app/views/articles/new.html.erb 
+	app/views/articles/new.html.erb
+
+5.3 Creating articles
