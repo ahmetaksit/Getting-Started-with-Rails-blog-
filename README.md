@@ -31,3 +31,5 @@ Getting Started with Rails (blog)
 
 5.5 Running a Migration
 	$ bin/rake db:migrate
+
+5.6 Saving data in the controller
