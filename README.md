@@ -11,3 +11,6 @@ Getting Started with Rails (blog)
 4.3 Setting the Application Home Page
 	<h1>Hello, Rails!</h1>
 	root 'welcome#index' //file: config/routes.rb
+
+5 Getting Up and Running
+	resources :articles  //file: config/routes.rb
