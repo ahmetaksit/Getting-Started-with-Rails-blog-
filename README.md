@@ -49,3 +49,8 @@ Getting Started with Rails (blog)
 5.12 Using partials to clean up duplication in views
 
 5.13 Deleting Articles
+
+6 Adding a Second Model
+
+6.1 Generating a Model
+	$ bin/rails generate model Comment commenter:string body:text article:references
