@@ -19,4 +19,7 @@ Getting Started with Rails (blog)
 	$ bin/rails generate controller articles 
 	//file: app/controllers/articles_controller.rb
 		def new   
-		end 
+		end
+
+5.2 The first form
+	app/views/articles/new.html.erb 
