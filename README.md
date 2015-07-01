@@ -47,3 +47,5 @@ Getting Started with Rails (blog)
 5.11 Updating Articles
 
 5.12 Using partials to clean up duplication in views
+
+5.13 Deleting Articles
