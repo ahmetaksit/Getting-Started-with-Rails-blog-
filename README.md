@@ -28,3 +28,6 @@ Getting Started with Rails (blog)
 
 5.4 Creating the Article model
 	$ bin/rails generate model Article title:string text:text
+
+5.5 Running a Migration
+	$ bin/rake db:migrate
