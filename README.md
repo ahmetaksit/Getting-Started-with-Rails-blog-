@@ -16,4 +16,7 @@ Getting Started with Rails (blog)
 	resources :articles  //file: config/routes.rb
 
 5.1 Laying down the ground work
-	$ bin/rails generate controller articles  
+	$ bin/rails generate controller articles 
+	//file: app/controllers/articles_controller.rb
+		def new   
+		end 
