@@ -77,3 +77,12 @@ Getting Started with Rails (blog)
 8.1 Deleting Associated Objects
 	//file: app/models/article.rb
 	dependent: :destroy
+
+9 Security
+
+9.1 Basic Authentication
+	//file: ArticlesController in app/controllers/articles_controller.rb
+	 http_basic_authenticate_with name: "admin", password: "aksit", except: [:index, :show]
+
+	//file: CommentsController (app/controllers/comments_controller.rb)
+	http_basic_authenticate_with name: "admin", password: "aksit", only: :destroy
