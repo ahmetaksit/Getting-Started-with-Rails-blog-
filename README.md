@@ -54,3 +54,5 @@ Getting Started with Rails (blog)
 
 6.1 Generating a Model
 	$ bin/rails generate model Comment commenter:string body:text article:references
+
+6.2 Associating Models
