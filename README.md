@@ -56,3 +56,9 @@ Getting Started with Rails (blog)
 	$ bin/rails generate model Comment commenter:string body:text article:references
 
 6.2 Associating Models
+
+6.3 Adding a Route for Comments  
+	//file: config/routes.rb
+	resources :articles do
+  		resources :comments
+	end
