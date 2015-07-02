@@ -69,3 +69,5 @@ Getting Started with Rails (blog)
 7 Refactoring (hotfix/v1.3.1)
 
 7.1 Rendering Partial Collections
+
+7.2 Rendering a Partial Form
