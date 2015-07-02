@@ -71,3 +71,5 @@ Getting Started with Rails (blog)
 7.1 Rendering Partial Collections
 
 7.2 Rendering a Partial Form
+
+8 Deleting Comments
