@@ -62,3 +62,6 @@ Getting Started with Rails (blog)
 	resources :articles do
   		resources :comments
 	end
+
+6.4 Generating a Controller
+	$ bin/rails generate controller Comments
