@@ -49,3 +49,19 @@ Getting Started with Rails (blog)
 5.12 Using partials to clean up duplication in views
 
 5.13 Deleting Articles
+
+6 Adding a Second Model
+
+6.1 Generating a Model
+	$ bin/rails generate model Comment commenter:string body:text article:references
+
+6.2 Associating Models
+
+6.3 Adding a Route for Comments  
+	//file: config/routes.rb
+	resources :articles do
+  		resources :comments
+	end
+
+6.4 Generating a Controller
+	$ bin/rails generate controller Comments
