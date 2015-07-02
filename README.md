@@ -65,3 +65,7 @@ Getting Started with Rails (blog)
 
 6.4 Generating a Controller
 	$ bin/rails generate controller Comments
+
+7 Refactoring (hotfix/v1.3.1)
+
+7.1 Rendering Partial Collections
