@@ -86,3 +86,5 @@ Getting Started with Rails (blog)
 
 	//file: CommentsController (app/controllers/comments_controller.rb)
 	http_basic_authenticate_with name: "admin", password: "aksit", only: :destroy
+
+Getting Started with Rails doc file link => http://guides.rubyonrails.org/getting_started.html
